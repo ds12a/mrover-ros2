@@ -207,4 +207,5 @@
     python teleoperation/basestation_gui/manage.py makemigrations
     python teleoperation/basestation_gui/manage.py migrate
   args:
+    executable: /bin/bash
     chdir: "{{ ansible_env.HOME }}/ros2_ws/src/mrover"
